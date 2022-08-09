@@ -67,7 +67,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <div class="nav-user" @click="onclick_dropdow()">
                   <p> Bem vindo! <?php echo $user->nome; ?></p>
                   <div v-bind:class="class_of_dropdow_user">
-                     <a href="">Editar Perfil</a>
                      <a href="db_engine/bd_mysql_destroy_pdo.php">Sair <i class="fi fi-rr-sign-in-alt"></i></a>
                   </div>
                </div>
@@ -165,10 +164,10 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                             Adicionar um comentário
                         </h5>
                         <p>
-                            Teste DB - 
+                            <!-- Teste DB - 
                             <?php
                             echo $user->nome;
-                            ?>
+                            ?> -->
                         </p>
                     </div>
                     <div class="comment">
@@ -193,9 +192,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                          }else{
                                  echo '<div class="alert alert-danger">Erro no envio da mensagem</div>';
                              }
-        
                     }
-
                         ?>
 
 

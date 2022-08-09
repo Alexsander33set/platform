@@ -20,7 +20,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Newron - Guiando o seu Futuro</title>
-
    <!-------CSS------->
    <link rel="stylesheet" href="../style/index.css">
    <!-------Logo Icon------->
@@ -32,6 +31,8 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
    <!----Scroll Animation--->
    <script src="https://unpkg.com/scrollreveal"></script>
+      <!-------JivoChat------->
+      <script src="//code.jivosite.com/widget/k0JA17ibZ8" async></script>
 </head>
 
 <body>

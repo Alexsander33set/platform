@@ -6,6 +6,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Newron - Guiando o seu Futuro</title>
 
+   <script src="//code.jivosite.com/widget/k0JA17ibZ8" async></script>
+
    <!-------CSS------->
    <link rel="stylesheet" href="../style/index.css">
    <!-------Logo Icon------->

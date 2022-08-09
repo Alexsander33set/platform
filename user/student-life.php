@@ -19,6 +19,9 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Área do Estudante - Newron</title>
+
+   <script src="//code.jivosite.com/widget/k0JA17ibZ8" async></script>
+
    <!-------CSS------->
    <link rel="stylesheet" href="../style/student-life.css">
    <!-------Logo Icon------->
@@ -71,7 +74,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                      <a href="db_engine/bd_mysql_destroy_pdo.php">Sair <i class="fi fi-rr-sign-in-alt"></i></a>
                   </div>
                </div>
-               
+
             </div>
          </div>
          <div class="nav-components-mobile">
@@ -561,24 +564,24 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
          <div class="text">
             <h3>Animador Iniciante</h3>
             <p>
-               <li>Lógica da Programação</li>
-               <li>HTML/CSS</li>
-               <li>Introdução ao Python</li>
-               <li>Inglês</li>
+               <li>Técnica de desenho volumétrico</li>
+               <li>Técnica animação pose a pose ou direta</li>
+               <li>Dominío dos softwares da área(Sugestões: Adobe Animate/Toon Boom)</li>
 
             </p>
             <a href="#"><i class="fi fi-rr-cross-small"></i></a>
          </div>
       </div>
       <div class="sl-card" id="intermediate_animator">
-         <img src="../src/logo/shiba/shiba_2.png" alt="">
+         <img src="../src/logo/shiba/shiba_2.png" alt=""><!-- alt= texto para cego ou leitor de textos ------- wind + shitf + del = alto identar -->
          <div class="text">
-            <h3>Desenvolvedor Intermediário</h3>
-            <p>
-               <li>Foque em aprender uma Linguagem e o Domínio</li>
-               <li>Banco de Dados - PHP/MySQL</li>
-               <li>Bibliotecas</li>
-               <li>Inglês </li>
+            <h3>Animador Intermediário</h3>
+            <p> 
+               <!-- Este é um comentário, lembrar de não fecha ↓ as abertos -->
+               <li>Pratique exercícios simples (Ex: caminhada)</li>
+               <li>Técnica de sobreposição e continuidade da ação</li>
+               <li>Técnica de temporização</li>
+               <li>Técnica de apelo </li>
             </p>
             <a href="#"><i class="fi fi-rr-cross-small"></i></a>
          </div>
@@ -586,12 +589,13 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
       <div class="sl-card" id="profissional_animator">
          <img src="../src/logo/shiba/shiba_3.png" alt="">
          <div class="text">
-            <h3>Desenvolvedor Avançado</h3>
+            <h3>Animador Avançado</h3>
             <p>
-               <li>Especialização em uma Linguagem</li>
-               <li>Linguagens diversas</li>
-               <li>Networking</li>
-               <li>Ajude a Comunidade</li>
+               <li>Monte seu portifólio</li>
+               <li>Aprimore seus conhecimentos (sugestões: estágio/curso/divulgação)</li>
+               <li>Contribua para Comunidade </li>
+
+               <li>Networking: contrua redes e contatos</li>
             </p>
             <a href="#"><i class="fi fi-rr-cross-small"></i></a>
          </div>
@@ -601,7 +605,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
          <br>
          <h2>CONHEÇA OS 12 PRINCÍPIOS DA ANIMAÇÃO</h2>
          <br>
-         <div>
+          <div>
             <h3>1. Comprimir e esticar (Squash and Stretch)</h3>
             Sem dúvida, este é o conceito mais importante. Qualquer figura viva demonstra mudanças consideráveis na sua forma ao se deslocar durante uma ação.
             O rosto de um personagem ganha mais vida quando as formas dos olhos, bochechas e lábios mudam de forma, com a utilização do “Squash & Stretch” ( comprime e estica ).

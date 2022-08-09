@@ -115,9 +115,19 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
       </section>
    </section>
    <script src="../components/navbar_off_template.js"></script>
+    
    <!-----Header----->
+    <header>
+        <div class="header-text">
+            <h1 class="selected">Newron</h1>
+            <h1>Descubra novos Caminhos</h1>
+            <h1>Trilhe seu Caminho Profissional</h1>
+        </div>
+        <img src="../src/logo/logo_inverted_no_content.png" alt="Logo do Site">
+    </header>
+   
    <main>
-      <section class="sobre">
+      <!-- <section class="sobre">
          <h1>Missão</h1>
          <p>A Missão da Newron é guiar jovens e pessoas que querem trilhar um caminho profissional com uma maior organização,
             junto da plataforma Student Life que os facilita a entender o que são necessarias para seguir sua carreira desejada,
@@ -134,8 +144,17 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
 
          <p>Essa é uma plataforma que se empenha em seu Planejamento e Acessibilidade,
             se manter livre de custos para o usuario final enquanto oferecemos um bom planejamento de carreira é nosso primeiro e mais importante objetivo da Newron.</p>
+      </section> -->
+      <section>
+      <h3>Nós reimaginamos a forma como o mundo se move para melhor</h3>
+      <p> 
+         Movimento é o que nós alimentamos. É nosso sangue vivo. Corre em nossas veias. É o que nos tira da cama todas as manhãs. Isso nos leva a reimaginar constantemente como podemos nos mover melhor. Para você. Por todos os lugares que você quer ir. Por todas as coisas que você quer ter. Por todas as maneiras que você quer ganhar. Em todo o mundo. Em tempo real. Na incrível velocidade de agora.
+      </p>
       </section>
-      <h2>Uma mensagem do nosso lime</h2>
+      <section>
+         <h2>Uma mensagem do nosso lime</h2>
+      </section>
+      
       <section class="advantages">
          <h4 class="title">Um pouco sobre a Newron</h4>
          <div class="advantages-cards">
