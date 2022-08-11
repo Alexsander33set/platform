@@ -41,7 +41,6 @@ footer = new Vue({
       </div>
    </div>
    <div class="footer-media">
-      <a href="#"><i class="fi fi-brands-facebook"></i></a>
       <a v-bind:href="footer_link_instagram"><i class="fi fi-brands-instagram"></i></a>
       <a v-bind:href="footer_link_linkedin"><i
             class="fi fi-brands-linkedin"></i></a>

@@ -57,7 +57,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <input type="search" name="navbar-search" list="pages" v-bind:id="class_of_navbar_search_field" v-model="value_of_navbar_search_field" v-on:keyup.enter="anything()">
                <datalist id="pages">
                   <option value="Student life"></option>
-                  <option value="Sobre nós"></option>
+                  <option value="Sobre Nós"></option>
                   <option value="Teste vocacional"></option>
                   <option value="FAQ"></option>
                   <option value="Políticas de privacidade e inclusão"></option>
@@ -68,7 +68,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <div class="nav-user" @click="onclick_dropdow()">
                   <p> Bem vindo! <?php echo $user->nome; ?></p>
                   <div v-bind:class="class_of_dropdow_user">
-                     <a href="">Editar Perfil</a>
                      <a href="db_engine/bd_mysql_destroy_pdo.php">Sair <i class="fi fi-rr-sign-in-alt"></i></a>
                   </div>
                </div>
@@ -91,7 +90,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
          <aside class="mobile-menu">
             <div class="exit-button" @click="mobile_menu_switch=false"><i class="fi fi-rr-cross-circle"></i></div>
             <div class="profile-settings">
-               <a href="">Editar Perfil<i class="fi fi-rr-edit"></i></a>
                <a class="button-close-session" href="db_engine/bd_mysql_destroy_pdo.php">Desconectar<i class="fi  fi-rr-sign-in-alt"></i></a>
             </div>
 
@@ -122,12 +120,14 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
          <div class="card">
             <img src="../src/logo/partners/ibm-logo-white.png" alt="Empresa IBM">
             <div class="card-text">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, praesentium.</p>
+               <p>&nbsp A International Business Machines Corporation é uma empresa dos Estados Unidos e é uma das poucas na área de tecnologia da informação com uma história contínua que remonta ao século XIX.<br>
+                &nbsp A IBM fabrica e vende hardware e software, oferece serviços de infraestrutura, serviços de consultoria nas áreas que vão desde computadores de grande porte até a nanotecnologia. </p>
             </div>
          </div>
          <div class="card">
             <div class="card-text">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, praesentium.</p>
+               <p>&nbsp Bradesco é um banco brasileiro, com sede em Osasco - SP. Foi fundado em 10 de março de 1943 em Marília, São Paulo, por Amador Aguiar.<br>
+                 &nbsp Em 2019 o Bradesco foi eleito a empresa mais inovadora em serviços financeiros, com o Prêmio Valor Inovação Brasil, organizado pelo Jornal Valor Econômico e pela divisão Strategy& da firma de consultoria PwC, além de ter conquistado o 5º lugar no ranking geral das empresas mais inovadoras.</p>
             </div>
             <img src="../src/logo/partners/fb-logo-white.png" alt="Empresa FB">
          </div>

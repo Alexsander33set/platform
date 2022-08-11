@@ -59,7 +59,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <input type="search" name="navbar-search" list="pages" v-bind:id="class_of_navbar_search_field" v-model="value_of_navbar_search_field" v-on:keyup.enter="anything()">
                <datalist id="pages">
                   <option value="Student life"></option>
-                  <option value="Sobre nós"></option>
+                  <option value="Sobre Nós"></option>
                   <option value="Teste vocacional"></option>
                   <option value="FAQ"></option>
                   <option value="Políticas de privacidade e inclusão"></option>
@@ -70,11 +70,10 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <div class="nav-user" @click="onclick_dropdow()">
                   <p> Bem vindo! <?php echo $user->nome; ?></p>
                   <div v-bind:class="class_of_dropdow_user">
-                     <a href="">Editar Perfil</a>
                      <a href="db_engine/bd_mysql_destroy_pdo.php">Sair <i class="fi fi-rr-sign-in-alt"></i></a>
                   </div>
                </div>
-
+               
             </div>
          </div>
          <div class="nav-components-mobile">
@@ -93,7 +92,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
          <aside class="mobile-menu">
             <div class="exit-button" @click="mobile_menu_switch=false"><i class="fi fi-rr-cross-circle"></i></div>
             <div class="profile-settings">
-               <a href="">Editar Perfil<i class="fi fi-rr-edit"></i></a>
                <a class="button-close-session" href="db_engine/bd_mysql_destroy_pdo.php">Desconectar<i class="fi  fi-rr-sign-in-alt"></i></a>
             </div>
 
@@ -500,6 +498,28 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
             <a href="#"><i class="fi fi-rr-cross-small"></i></a>
          </div>
       </div>
+      <section>
+         <br><br>
+         Atualmente todas as médias e grandes empresas possuem um website para divulgar, compartilhar e se relacionar com seus clientes. E com isso, cada vez mais necessitam de profissionais que consigam criar e desenvolver websites com a cara da marca. <br><br><br>
+
+         <h3>Mas afinal, o que é um Website e o que um Desenvolvedor Web faz?</h3>
+         A tradução de Web do inglês é rede, e o nome dado à Rede Mundial de Computadores é www (World Wide Web). Site significa lugar, então Website é um lugar na rede. Porém, para encontrar um site, é preciso um domínio, que nada mais é que um endereço online. Como exemplo, nosso domínio é newron.com.br . Se você já tem uma ideia de nome para seu site, faça uma pesquisa o quanto antes e adiante a compra de domínio para garantir o seu nome de negócio online. <br><br>
+
+         <h3 style='font-weight:400;'>Existem vários tipos de website:</h3>
+         <strong>Sites:</strong> sites institucionais, afiliados e pessoais com formato de portfólio. Os sites são essenciais para a presença online de qualquer negócio.
+         <br><strong>Blog:</strong> blog de viagens, blog de receitas, blog de games ou blog pessoal. Você pode criar um blog sobre o assunto que quiser.
+         <br><strong>Loja Virtual:</strong> também conhecidos como e-commerce. Venda o que quiser 24 horas por dia.<br><br><br>
+
+         <h3>E quanto ao Desenvolvedor Web?</h3>
+         Também chamado de Web Developer ou Programador, este tem duas áreas de atuação: front-end e back-end. 
+         Ele é responsável por toda a estrutura de um site. Ele planeja, constrói e dá manutenção para tudo que roda em uma plataforma web. Este profissional também precisa garantir que tudo funcione de acordo com o esperado.<br><br>
+         <h3 style='font-weight:400;'>Segue uma breve explicação das áreas Back-end e Front-end:</h3>
+         <strong> Back-end:</strong> responsável pelo servidor que hospeda o seu site, garantindo que os dados enviados para o navegador estejam corretos. Deve seguir as boas práticas de segurança de dados. Costuma dominar as linguagens SQL, MySQL e PostgreSQL.<br>
+         <strong>Front-end:</strong> cuida de toda a parte que você pode ver em um site. Sua maior preocupação é a experiência que o usuário tem ao fazer um acesso, cuidando desde o layout até pequenos detalhes de menus e rodapés. Costuma trabalhar com as linguagens HTML, CSS e JavaScript.<br><br>
+         Há também o profissional que consegue trabalhar nas duas áreas front-end e back-end, que é chamado de <strong>Desenvolvedor Web Full Stack</strong>. Este, atua em todas as etapas de um sistema, do servidor ao banco de dados, além de também se envolver na parte de desenvolvimento mobile, já que essa área está cada vez mais presente nas empresas.<br><br>
+         Cursos que capacitam você a trabalhar como Desenvolvedor Web são Análise de Sistemas, Ciência da Computação ou similares.
+
+      </section>
    </section>
 
    <section class="student-life hide" id="sl-anim">
@@ -516,48 +536,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
          <button class="circle nv2-circle" onclick="intermediate_animator()"></button>
          <div class="bar n2-bar"></div>
          <button class="circle nv3-circle" onclick="profissional_animator()"></button>
-      </div>
-      </div>
-
-      <div class="sl-card" id="beginner_animator">
-         <img src="../src/logo/shiba/shiba_1.png" alt="">
-         <div class="text">
-            <h3>Animador Iniciante</h3>
-            <p>
-               <li>Lógica da Programação</li>
-               <li>HTML/CSS</li>
-               <li>Introdução ao Python</li>
-               <li>Inglês</li>
-
-            </p>
-            <a href="#"><i class="fi fi-rr-cross-small"></i></a>
-         </div>
-      </div>
-      <div class="sl-card" id="intermediate_animator">
-         <img src="../src/logo/shiba/shiba_2.png" alt="">
-         <div class="text">
-            <h3>Desenvolvedor Intermediário</h3>
-            <p>
-               <li>Foque em aprender uma Linguagem e o Domínio</li>
-               <li>Banco de Dados - PHP/MySQL</li>
-               <li>Bibliotecas</li>
-               <li>Inglês </li>
-            </p>
-            <a href="#"><i class="fi fi-rr-cross-small"></i></a>
-         </div>
-      </div>
-      <div class="sl-card" id="profissional_animator">
-         <img src="../src/logo/shiba/shiba_3.png" alt="">
-         <div class="text">
-            <h3>Desenvolvedor Avançado</h3>
-            <p>
-               <li>Especialização em uma Linguagem</li>
-               <li>Linguagens diversas</li>
-               <li>Networking</li>
-               <li>Ajude a Comunidade</li>
-            </p>
-            <a href="#"><i class="fi fi-rr-cross-small"></i></a>
-         </div>
       </div>
       <div class="sl-card" id="beginner_animator">
          <img src="../src/logo/shiba/shiba_1.png" alt="">
@@ -603,10 +581,10 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
       <section>
          <br>
          <br>
-         <h2>CONHEÇA OS 12 PRINCÍPIOS DA ANIMAÇÃO</h2>
+         <h2>CONHEÇA OS PRINCÍPIOS DA ANIMAÇÃO</h2>
          <br>
           <div>
-            <h3>1. Comprimir e esticar (Squash and Stretch)</h3>
+            <h3>1. Comprimir e Esticar (Squash and Stretch)</h3>
             Sem dúvida, este é o conceito mais importante. Qualquer figura viva demonstra mudanças consideráveis na sua forma ao se deslocar durante uma ação.
             O rosto de um personagem ganha mais vida quando as formas dos olhos, bochechas e lábios mudam de forma, com a utilização do “Squash & Stretch” ( comprime e estica ).
             Ao se usar o “Squash & Stretch”, é importante sempre manter o volume da forma.
@@ -623,19 +601,19 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
             Uma boa forma de conseguir um bom “staging” é através do uso de silhueta.
             <br>
             <br>
-            <h3>4. Animação direta e pose a pose (Straight Ahead Action and Pose to Pose)</h3>
+            <h3>4. Animação Direta e Pose a Pose (Straight Ahead Action and Pose to Pose)</h3>
             Há dois métodos para animar uma cena, o “direto” (straight ahead) e o “pose a pose”.
             No método “direto” o animador desenha um movimento após o outro até o final da cena. Neste caso, a animação sai mais espontânea e a cena parece menos mecânica. Desta forma o animador não planeja exatamente como vai ser o decorrer da cena e vai inventando à medida em que progride. Este método geralmente é usado em cenas de ação, onde muitas vezes ocorrem movimentos rápidos e inesperados, embora seja preciso cuidado para que o personagem não fique fora da perspectiva ou checagem do cenário.
             <br>
             <br>
-            <h3>5. Continuidade e sobreposição da ação (Overlapping Action and Follow Through)</h3>
+            <h3>5. Continuidade e Sobreposição da Ação (Overlapping Action and Follow Through)</h3>
             Quando um personagem entrava andando em cena e de repente parava completamente, a ação parecia dura e não era convincente. Foi encontrada então uma forma em que, basicamente, as partes não parassem de se movimentar todas ao mesmo tempo.
             É o principio do “Follow Through” (movimento sequencial).
             Se o personagem tem elementos como orelhas grandes, cauda ou casaco, estas partes continuam a se mover mesmo após a figura ter parado.
             O movimento de cada elemento terá um tempo diferente de acordo com seu peso e características.
             <br>
             <br>
-            <h3>6. Aceleração e desaceleração (Slow In and Slow Out)</h3>
+            <h3>6. Aceleração e Desaceleração (Slow In and Slow Out)</h3>
             Uma vez que o animador desenhava cuidadosamente seus extremos, pensando no tempo decorrente da ação como um todo, precisava indicar ao intervalador como seriam feitos os intervalos. Usava então uma “chave de intervalação”.
             Uma vez que o animador desenhava cuidadosamente seus extremos, pensando no tempo decorrente da ação como um todo, precisava indicar ao intervalador como seriam feitos os intervalos. Usava então uma “chave de intervalação”.
             Através de indicações na “chave” o movimento se desenhava ao longo da animação.

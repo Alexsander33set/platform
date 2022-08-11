@@ -62,7 +62,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <input type="search" name="navbar-search" list="pages" v-bind:id="class_of_navbar_search_field" v-model="value_of_navbar_search_field" v-on:keyup.enter="anything()">
                <datalist id="pages">
                   <option value="Student life"></option>
-                  <option value="Sobre nós"></option>
+                  <option value="Sobre Nós"></option>
                   <option value="Teste vocacional"></option>
                   <option value="FAQ"></option>
                   <option value="Políticas de privacidade e inclusão"></option>
@@ -73,7 +73,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <div class="nav-user" @click="onclick_dropdow()">
                   <p> Bem vindo! <?php echo $user->nome; ?></p>
                   <div v-bind:class="class_of_dropdow_user">
-                     <a href="">Editar Perfil</a>
                      <a href="db_engine/bd_mysql_destroy_pdo.php">Sair <i class="fi fi-rr-sign-in-alt"></i></a>
                   </div>
                </div>
@@ -145,7 +144,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
       <section class="student-life vocational-test">
          <div class="student-life-text">
             <h2 class="title-gg">Teste vocacional</h2>
-            <p>Faça um teste para saber em que você pode ser útil, caso não tenha, desista.</p>
+            <p>O teste vocacional busca sinalizar algumas opções de carreira que encaixam com a sua personalidade, descubra a sua!</p>
             <a href="not-ready.php">Comece sua Jornada</a>
          </div>
          <img src="../src/index/icone_teste_vocacional.png" alt="icone teste vocacional">

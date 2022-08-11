@@ -54,8 +54,8 @@
 
       <section class="student-life">
          <div class="student-life-text">
-            <h2 class="title-gg">Teste vocacional</h2>
-            <p>Faça um teste para saber em que você pode ser útil, caso não tenha, desista.</p>
+            <h2 class="title-gg">Teste Vocacional</h2>
+            <p>O teste vocacional busca sinalizar algumas opções de carreira que encaixam com a sua personalidade, descubra a sua!</p>
             <a href="student-life.php">Comece sua Jornada</a>
          </div>
          <img src="../src/index/icone_teste_vocacional.png" alt="icone teste vocacional">
@@ -67,7 +67,7 @@
             <h2 class="title-gg">Student life</h2>
             <p>Trilhe uma jornada de conhecimento com o nosso Student Life, e tenha um cronograma imersivo para alcançar
                seus objetivos profissionais.</p>
-            <a href="db_engine/bd_mysql_destroy_pdo.php">Comece sua Jornada</a>
+            <a href="student.php">Comece sua Jornada</a>
          </div>
       </section>
 

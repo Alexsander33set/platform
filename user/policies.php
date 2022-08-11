@@ -56,7 +56,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <input type="search" name="navbar-search" list="pages" v-bind:id="class_of_navbar_search_field" v-model="value_of_navbar_search_field" v-on:keyup.enter="anything()">
                <datalist id="pages">
                   <option value="Student life"></option>
-                  <option value="Sobre nós"></option>
+                  <option value="Sobre Nós"></option>
                   <option value="Teste vocacional"></option>
                   <option value="FAQ"></option>
                   <option value="Políticas de privacidade e inclusão"></option>
@@ -67,7 +67,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
                <div class="nav-user" @click="onclick_dropdow()">
                   <p> Bem vindo! <?php echo $user->nome; ?></p>
                   <div v-bind:class="class_of_dropdow_user">
-                     <a href="">Editar Perfil</a>
                      <a href="db_engine/bd_mysql_destroy_pdo.php">Sair <i class="fi fi-rr-sign-in-alt"></i></a>
                   </div>
                </div>
@@ -90,7 +89,6 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
          <aside class="mobile-menu">
             <div class="exit-button" @click="mobile_menu_switch=false"><i class="fi fi-rr-cross-circle"></i></div>
             <div class="profile-settings">
-               <a href="">Editar Perfil<i class="fi fi-rr-edit"></i></a>
                <a class="button-close-session" href="db_engine/bd_mysql_destroy_pdo.php">Desconectar<i class="fi  fi-rr-sign-in-alt"></i></a>
             </div>
 
@@ -111,7 +109,7 @@ $user = $stmt1->fetch(PDO::FETCH_OBJ);
             </div>
          </aside>
       </section>
-    </section>
+   </section>
     <script src="../components/navbar_off_template.js"></script>
     <!-----Header----->
 
